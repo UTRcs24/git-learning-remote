@@ -18,3 +18,7 @@ allow the user to write assembly code that gets compiled straight to the process
 assembly rules. The stack would simply be a python list that the user has to reserve. There will be 31 'registers', all mapped to variables. Why make this limited language? It could be a way to
 introduce elementary schoolers and middle schoolers to assembly. They wouldn't need to set up any complex tools or worry configuring things on the command-line, nor would they need to worry about
 unintuitive names for things. Just a thought.
+
+## 06, February, 2025, 16:54
+### First Update in Awhile
+This is the first update I've had in awhile. There really hasn't been anything of note to jot down, and as a result, I haven't updated this journal in a minute. We've started going over diagrams in class. This coupled with the requirements document has given some form to our amorphous blob of a software project. With diagrams, I can now more easily piece together what exactly we will need to create, and in what order. I also have a better idea of how to code the back-end of things. I'm thinking that each user will have a number of fields associated with them in the data base. The main Python code will pull this info and use it as needed. We are going to call the social media platform MyState. As for my other project, I have yet to have much will to work on it considering everything else I'm already doing. I plan on working on it a bit more as summer approaches. I at least want all of the design finished by April so that I can know exactly what technologies I need to learn how to use.
