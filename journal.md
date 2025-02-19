@@ -21,4 +21,17 @@ unintuitive names for things. Just a thought.
 
 ## 06, February, 2025, 16:54
 ### First Update in Awhile
-This is the first update I've had in awhile. There really hasn't been anything of note to jot down, and as a result, I haven't updated this journal in a minute. We've started going over diagrams in class. This coupled with the requirements document has given some form to our amorphous blob of a software project. With diagrams, I can now more easily piece together what exactly we will need to create, and in what order. I also have a better idea of how to code the back-end of things. I'm thinking that each user will have a number of fields associated with them in the data base. The main Python code will pull this info and use it as needed. We are going to call the social media platform MyState. As for my other project, I have yet to have much will to work on it considering everything else I'm already doing. I plan on working on it a bit more as summer approaches. I at least want all of the design finished by April so that I can know exactly what technologies I need to learn how to use.
+This is the first update I've had in awhile. There really hasn't been anything of note to jot down, and as a result, I haven't updated this journal in a minute. We've started going over diagrams in
+class. This coupled with the requirements document has given some form to our amorphous blob of a software project. With diagrams, I can now more easily piece together what exactly we will need to
+create, and in what order. I also have a better idea of how to code the back-end of things. I'm thinking that each user will have a number of fields associated with them in the data base. The main 
+Python code will pull this info and use it as needed. We are going to call the social media platform MyState. As for my other project, I have yet to have much will to work on it considering everything
+else I'm already doing. I plan on working on it a bit more as summer approaches. I at least want all of the design finished by April so that I can know exactly what technologies I need to learn how to 
+use.
+
+## 19, February, 2025, 13:06
+### Beginning of Work
+We recently pitched our project. To do that, we heavily discussed the project architecture last week. After discussing things, I think I know exactly how I'm going to do the database. I'm going with
+TinyDB. The overarching datatype is going to be a user. Each user will contain a list of posts. Each post contains an author, associated image URLs, associated video URLs, text content, reactions, 
+and a list of replies. Each reply will contain an author and associated picture URLs. Each user will also have a background color, foreground color, and text color on their page. They will have an image 
+URL for their flag. They will also have a list of strings which are their favorite things. They will have an allies list which is just a list of users. In addition, they'll have a messages list. Each 
+message will have an author, a recipient, any associated image or video URLs, and content.
