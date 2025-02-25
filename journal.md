@@ -35,3 +35,7 @@ TinyDB. The overarching datatype is going to be a user. Each user will contain a
 and a list of replies. Each reply will contain an author and associated picture URLs. Each user will also have a background color, foreground color, and text color on their page. They will have an image 
 URL for their flag. They will also have a list of strings which are their favorite things. They will have an allies list which is just a list of users. In addition, they'll have a messages list. Each 
 message will have an author, a recipient, any associated image or video URLs, and content.
+
+## 25, February, 2025, 13:49
+### Git Issues
+When you hear "issue" and "Github", you probably don't think of going things going wrong. But in this instance, an issue denotes something going wrong, way wrong. While working on the database, I tried to merge my branch onto our main branch. However, there was an issue. To try and resolve the issue, I did a git pull, which put a bunch of junk from other projects within my directory. In trying to fix it, I somehow got the junk on our team's main branch on Github. So, I deleted the stuff locally and tried to merge the changes back in, but that was no help, for the changes were too complex to edit on the web. Thus, I had to go to Jeff's office and try to resolve the issue in the command line. Eventually, the issue was resolved and the directory is now back to normal. I deleted my local instance of the repo, recloned the remote instance, and now hopefully, it should be happy trails from here on out. Right? Right?
