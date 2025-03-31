@@ -39,3 +39,18 @@ message will have an author, a recipient, any associated image or video URLs, an
 ## 25, February, 2025, 13:49
 ### Git Issues
 When you hear "issue" and "Github", you probably don't think of going things going wrong. But in this instance, an issue denotes something going wrong, way wrong. While working on the database, I tried to merge my branch onto our main branch. However, there was an issue. To try and resolve the issue, I did a git pull, which put a bunch of junk from other projects within my directory. In trying to fix it, I somehow got the junk on our team's main branch on Github. So, I deleted the stuff locally and tried to merge the changes back in, but that was no help, for the changes were too complex to edit on the web. Thus, I had to go to Jeff's office and try to resolve the issue in the command line. Eventually, the issue was resolved and the directory is now back to normal. I deleted my local instance of the repo, recloned the remote instance, and now hopefully, it should be happy trails from here on out. Right? Right?
+
+## 20, March, 2025, 18:37
+###User Initialization
+For the longest time, I had a huge issue when trying to have two different types of users on MyState. The login page struggled greatly with having two different types of users in the database. I had
+a table for regular users, and I had a table for secondary users. However, I've figured out how to fix this! Instead of having two tables, I simply added a new field to users: 'associated_user'. If
+the associated user is None, then that means that they are a primary user. If they're a primary user, when they login, they will see their home page, along with the button to edit it, the friends list,
+etc. However, if they are a secondary user, then when logging in, they'll see an altered version of their associated users homepage. They'll see posts and be able to react and comment, but they'll be
+unable to edit the webpage or see a friends list.
+
+## 26, March, 2025, 17:23
+###Refactoring
+When refactoring the tic-tac-toe game, I've decided that I'm going to do three for loops for the winner function. It will be three nested for loops for a total of six for loops. The for loop for
+diagonal wins was a pain, but I think I've got it. As for everything else, I've added some comments and changed function names. The most troublesome thing regarding naming was the name of the
+board. The board was simply called 'b'. Not only is this non-descriptive, but when changing it to board, I had to just keep rerunning the program until I ran to the 'b not initialized' error. This is
+because since b is a single letter, it shows far too often in any search. Note to self, avoid naming a variable as a single letter as much as possible.
